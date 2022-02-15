@@ -1,0 +1,73 @@
+How to Install Face Recognition in Python on Windows?
+Last Updated : 26 Oct, 2021
+In this article, we will learn how to install Face Recognition in Python on Windows. Recognize and manipulate faces from Python or from the command line with the world’s simplest face recognition library. Built using dlib’s state-of-the-art face recognition built with deep learning.
+
+Installing Face Recognition on Windows :
+Prerequisites:
+Face Recognition module can only be installed for Python version 3.7 and 3.8.
+
+Step 1: Install git for Windows
+
+Step 2: Clone this repository and go inside the folder using the following commands
+
+git clone https://github.com/RvTechiNNovate/face_recog_dlib_file.git
+cd face_recog_dlib_file
+git clone face_recog
+
+Step 3: Enter the following command to install dlib and cmake using pip
+
+Python 3.7:
+pip install dlib-19.19.0-cp37-cp37m-win_amd64.whl
+
+Python 3.8:
+pip install dlib-19.19.0-cp38-cp38-win_amd64.whl
+pip install cmake
+pip install dlib for python 3.8
+
+Method 1: Using pip to install Face Recognition Package
+Follow the below steps to install the Face Recognition package on Windows using pip:
+
+Step 1: Install the latest Python3 in Windows 
+
+Step 2: Check if pip and python are correctly installed.
+
+python --version
+pip --version
+checking python and pip version in Windows 
+
+Step 3: Upgrade your pip to avoid errors during installation.
+
+pip install --upgrade pip
+upgrading pip in Windows 
+
+Step 4: Enter the following command to install Face Recognition using pip3.
+
+pip install face-recognition
+
+
+Method 2: Using setup.py to install Face Recognition 
+Follow the below steps to install the Face Recognition on Windows using the setup.py file:
+
+Step 1: Download the latest source package of Face Recognition for python3 from here.
+
+curl https://files.pythonhosted.org/packages/6c/49/75dda409b94841f01cbbc34114c9b67ec618265084e4d12d37ab838f4fd3/face_recognition-1.3.0.tar.gz > face_recognition-1.3.0.tar.gz
+downloading the source package for Face Recognition in Windows 
+
+Step 2: Extract the downloaded package using the following command.
+
+tar -xzvf face_recognition-1.3.0.tar.gz
+extracting the face_recognition-1.3.0.tar.gz file in Windows 
+
+Step 3: Go inside the folder and Enter the following command to install the package.
+
+cd face_recognition-1.3.0
+python setup.py install
+installing Face Recognition on Windows using the setup.py file
+
+Verifying Face Recognition installation on Windows :
+Make the following import in your python terminal to verify if the installation has been done properly:
+
+import face_recognition
+Verifying Face Recognition installation on Windows 
+
+If there is any error while importing the module then is not installed properly.
