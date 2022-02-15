@@ -1,4 +1,4 @@
-# Documents-2022
+# Face Recognition
 
 how to install face recognition module/library in windows. 
 reference from geeks for geeks
